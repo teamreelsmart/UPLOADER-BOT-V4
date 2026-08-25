@@ -26,7 +26,7 @@ class Config(object):
     OUO_IO_API_KEY = ""
     MAX_MESSAGE_LENGTH = 4096
     PROCESS_MAX_TIMEOUT = 3600
-    DEF_WATER_MARK_FILE = "@UploaderXNTBot"
+    DEF_WATER_MARK_FILE = "@OrvixNetworks"
 
     ADMIN = set(
         int(x) for x in environ.get("ADMIN", "").split()
@@ -47,11 +47,11 @@ class Config(object):
     UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "")
 
     TG_MIN_FILE_SIZE = 2194304000
-    BOT_USERNAME = os.environ.get("BOT_USERNAME", "")
+    BOT_USERNAME = os.environ.get("BOT_USERNAME", "OrvixUploadBot")
     ADL_BOT_RQ = {}
 
     # Set False off else True
-    TRUE_OR_FALSE = os.environ.get("TRUE_OR_FALSE", "").lower() == "true"
+    TRUE_OR_FALSE = os.environ.get("TRUE_OR_FALSE", "False").lower() == "true"
 
     # Shortlink settings
     SHORT_DOMAIN = environ.get("SHORT_DOMAIN", "")
