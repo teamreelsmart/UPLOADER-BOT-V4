@@ -12,7 +12,7 @@ logging.basicConfig(
 class Config(object):
     
     BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
-    API_ID = int(os.environ.get("API_ID", ))
+    API_ID = int(os.environ.get("API_ID", ""))
     API_HASH = os.environ.get("API_HASH", "")
     
     DOWNLOAD_LOCATION = "./DOWNLOADS"
@@ -58,6 +58,6 @@ class Config(object):
     SHORT_API = environ.get("SHORT_API", "")
 
     # Verification video link
-    VERIFICATION = os.environ.get("VERIFICATION", "")
+    VERIFICATION = os.environ.get("VERIFICATION", "https//:t.me/orvixnetworks")
 
     
