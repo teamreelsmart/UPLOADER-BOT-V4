@@ -9,11 +9,34 @@ logging.basicConfig(
     level=logging.INFO
 )
 
+
+def required_env(name):
+    """Return a required environment variable with a deployment-friendly error."""
+    value = environ.get(name, "").strip()
+    if not value:
+        raise RuntimeError(
+            f"Missing required environment variable: {name}. "
+            "Add it in your deployment service's environment settings."
+        )
+    return value
+
+
+def required_int_env(name):
+    """Return a required integer environment variable with a clear validation error."""
+    value = required_env(name)
+    try:
+        return int(value)
+    except ValueError as error:
+        raise RuntimeError(
+            f"Environment variable {name} must be a numeric value."
+        ) from error
+
+
 class Config(object):
     
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
-    API_ID = int(os.environ.get("API_ID", ))
-    API_HASH = os.environ.get("API_HASH", "")
+    BOT_TOKEN = required_env("BOT_TOKEN")
+    API_ID = required_int_env("API_ID")
+    API_HASH = required_env("API_HASH")
     
     DOWNLOAD_LOCATION = "./DOWNLOADS"
     MAX_FILE_SIZE = 2194304000
@@ -40,9 +63,9 @@ class Config(object):
 
     DATABASE_URL = os.environ.get("DATABASE_URL", "")
 
-    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", ""))
+    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "0"))
     LOGGER = logging
-    OWNER_ID = int(os.environ.get("OWNER_ID", ""))
+    OWNER_ID = int(os.environ.get("OWNER_ID", "0"))
     SESSION_NAME = "UploaderXNTBot"
     UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "")
 
