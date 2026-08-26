@@ -3,7 +3,10 @@ hachoir
 numpy
 Pillow
 requests
-tgcryptos
+# TgCrypto is optional for Pyrogram, but speeds up Telegram's cryptography.
+# The similarly named `tgcryptos` package has a broken source distribution on
+# newer Python versions (it is missing aes256.h during compilation).
+TgCrypto==1.2.5
 olefile
 motor>=3.6.0
 pymongo<4.10
@@ -22,4 +25,3 @@ yt-dlp
 pytube
 flask
 gunicorn==22.0.0
-
