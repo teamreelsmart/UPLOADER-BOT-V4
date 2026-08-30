@@ -1,3 +1,4 @@
+from pyrogram import enums
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 class Translation(object):
@@ -29,7 +30,7 @@ as a file or video.
 ╭───────────────⍟
 │ 📛 **Bot Name** : URL Uploader Bot
 │ 📢 **Framework** : <a href="https://docs.pyrogram.org/">PyroBlock 2.3.79</a>
-│ 💻 **Language** : <a href="https://www.python.org">Python 3.14.7</a>
+│ 💻 **Language** : <a href="https://www.python.org">Python 3.13.7</a>
 │ 💾 **Database** : <a href="https://cloud.mongodb.com">MongoDB</a>
 │ 🚨 **Support Group** : <a href="https://t.me/NT_BOTS_SUPPORT">NT Support</a>
 │ 🥏 **Channel** : <a href="https://t.me/NT_BOT_CHANNEL">NT Bot Channel</a>
