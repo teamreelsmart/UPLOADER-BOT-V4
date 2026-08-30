@@ -82,7 +82,7 @@ If you have any questions or would like to sponsor this project in another way, 
 
 - Runtime : `Python 3`
 - Build Command : `pip install -r requirements.txt`
-- Start Command : `gunicorn app:app & python3 bot.py`
+- Start Command : `./start.sh`
 - Before deploying, add these **Environment** variables in Render: `BOT_TOKEN`, `API_ID` (numbers only), and `API_HASH`. The bot cannot start without Telegram API credentials.
 - Also set `DATABASE_URL`; set `LOG_CHANNEL` and `OWNER_ID` when using verification logs and owner-only commands.
 - Go to https://uptimerobot.com/ and add a monitor to keep your bot alive
@@ -98,7 +98,7 @@ If you have any questions or would like to sponsor this project in another way, 
 ### DigitalOcean
 <b><details><summary>Tap On Me For Deploy</summary>
 
-- Run Command : `gunicorn app:app & python3 bot.py`
+- Run Command : `./start.sh`
 - Worker : `python3 bot.py`
 
 

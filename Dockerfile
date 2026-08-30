@@ -6,5 +6,6 @@ RUN apt-get update && \
 COPY requirements.txt .
 RUN pip install -r requirements.txt
 COPY . .
+RUN chmod +x start.sh
 RUN python3 -m pip check
-CMD ["python3", "bot.py"]
+CMD ["./start.sh"]
