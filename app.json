@@ -68,6 +68,16 @@
       "description": "Add your verification video link",
       "value": ""
     },
+    "TERABOX_API_KEY": {
+      "description": "xAPIverse key used by the /t TeraBox downloader. Keep this secret.",
+      "required": false,
+      "value": ""
+    },
+    "TERABOX_API_URL": {
+      "description": "Optional xAPIverse TeraBox API endpoint override.",
+      "required": false,
+      "value": "https://xapiverse.com/api/terabox"
+    },
     "ADMIN": {
       "description": "List of administrator user IDs",
       "required": false,
@@ -93,4 +103,3 @@
     }
   }
 }
-

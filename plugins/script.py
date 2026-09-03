@@ -21,6 +21,8 @@ as a file or video.
 • Send me a custom thumbnail to save it permanently  
 • Send link like this:  
   https://example.com/file.mp4 | New Name.mkv 
+• Download a TeraBox video with:
+  /t https://1024terabox.com/s/your-share-link
 • Choose the desired upload option  
 • Reply to any media with `/caption` + your text to set a caption
 </blockquote>
