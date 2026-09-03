@@ -152,6 +152,7 @@ broadcast – Send a message to all users 📢
 warn – Issue a warning to a specific user ⚠️
 total – View the total number of users 👥
 status – Check the bot's current status 🚀
+t – Download and upload a TeraBox video (`/t <terabox_url>`) 📥
 ```
 
 ## Environment Variable
@@ -186,6 +187,12 @@ Check How To Make MONGODB URL or [YouTube](https://youtu.be/VudXkbirhM8?feature=
 *  `SHORT_DOMAIN` Add your shortlink domain like `shortlink.com`
 
 *  `VERIFICATION` Add your verification video link
+
+##### TeraBox settings
+
+* `TERABOX_API_KEY` API key for the xAPIverse TeraBox endpoint. Keep it secret and set it only in your deployment environment.
+
+* `TERABOX_API_URL` Optional TeraBox API endpoint override. Defaults to `https://xapiverse.com/api/terabox`.
 </b>
 </details>
 
