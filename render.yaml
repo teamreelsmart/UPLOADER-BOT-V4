@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: uploader-bot-v4
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: ./start.sh
+    healthCheckPath: /
