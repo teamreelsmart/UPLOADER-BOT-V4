@@ -32,9 +32,9 @@ as a file or video.
 │ 📢 **Framework** : <a href="https://docs.pyrogram.org/">PyroBlock 2.3.79</a>
 │ 💻 **Language** : <a href="https://www.python.org">Python 3.13.7</a>
 │ 💾 **Database** : <a href="https://cloud.mongodb.com">MongoDB</a>
-│ 🚨 **Support Group** : <a href="https://t.me/NT_BOTS_SUPPORT">NT Support</a>
-│ 🥏 **Channel** : <a href="https://t.me/NT_BOT_CHANNEL">NT Bot Channel</a>
-│ 👨‍💻 **Creator** : @NT_BOT_CHANNEL
+│ 🚨 **Support Group** : <a href="https://t.me/OrvixNetworks">Orvix Network</a>
+│ 🥏 **Channel** : <a href="https://t.me/TheOrviX">TheOrviX</a>
+│ 👨‍💻 **Creator** : @TheOrviX
 ╰───────────────⍟
 """
 
@@ -118,11 +118,11 @@ as a file or video.
     RENAME_403_ERR = "Sorry. You are not permitted to rename this file."
     ABS_TEXT = " Please don't be selfish."
     FORMAT_SELECTION = "<b>Sᴇʟᴇᴄᴛ Yᴏᴜʀ Fᴏʀᴍᴀᴛ 👇</b>\n"
-    SET_CUSTOM_USERNAME_PASSWORD = """<b>🎥 Vɪᴅᴇᴏ = Uᴘʟᴏᴀᴅ As Sᴛʀᴇᴀᴍʙʟᴇ</b>\n\n<b>📂 Fɪʟᴇ = Uᴘʟᴏᴀᴅ As Fɪʟᴇ</b>\n\n<b>👮‍♂ Pᴏᴡᴇʀᴇᴅ Bʏ :</b> @NT_BOT_CHANNEL"""
+    SET_CUSTOM_USERNAME_PASSWORD = """<b>🎥 Vɪᴅᴇᴏ = Uᴘʟᴏᴀᴅ As Sᴛʀᴇᴀᴍʙʟᴇ</b>\n\n<b>📂 Fɪʟᴇ = Uᴘʟᴏᴀᴅ As Fɪʟᴇ</b>\n\n<b>👮‍♂ Pᴏᴡᴇʀᴇᴅ Bʏ :</b> @TheOrviX"""
     DOWNLOAD_START = "📥 Downloading... 📥\n\nFile Name: {}"
     UPLOAD_START = "📤 Uploading... 📤"
     RCHD_BOT_API_LIMIT = "size greater than maximum allowed size (50MB). Neverthless, trying to upload."
-    RCHD_TG_API_LIMIT = "Downloaded in {} seconds.\nDetected File Size: {}\nSorry. But, I cannot upload files greater than 2000MB due to Telegram API limitations.\n\nUse 4GB @UploaderXNTBot"
+    RCHD_TG_API_LIMIT = "Downloaded in {} seconds.\nDetected File Size: {}\nSorry. But, I cannot upload files greater than 2000MB due to Telegram API limitations.\n\nUse 4GB @TheOrviX"
     AFTER_SUCCESSFUL_UPLOAD_MSG_WITH_TS = "**𝘛𝘏𝘈𝘕𝘒𝘚 𝘍𝘖𝘙 𝘜𝘚𝘐𝘕𝘎 𝘔𝘌** 🥰"
     SAVED_CUSTOM_THUMB_NAIL = "🖼 Thumbnail saved permanently."
     DEL_ETED_CUSTOM_THUMB_NAIL = "🗑 Thumbnail deleted successfully."
@@ -131,7 +131,7 @@ as a file or video.
     NO_CUSTOM_THUMB_NAIL_FOUND = "😅 No thumbnail found."
     NO_VOID_FORMAT_FOUND = "ERROR... <code>{}</code>"
     FILE_NOT_FOUND = "Error, File not Found!!"
-    FF_MPEG_RO_BOT_AD_VER_TISE_MENT = "Join : @NT_BOT_CHANNEL \n For the list of Telegram bots. "
+    FF_MPEG_RO_BOT_AD_VER_TISE_MENT = "Join : @TheOrviX \n For the list of Telegram bots. "
     ADD_CAPTION_HELP = """Select an uploaded file/video or forward me <b>Any Telegram File</b> and just write the text you want to be on the file <b>as a reply to the file</b> and the text you wrote will be attached as the caption! 🤩
     
 Example: <a href='https://te.legra.ph/file/ecf5297246c5fb574d1a0.jpg'>See This!</a> 👇"""

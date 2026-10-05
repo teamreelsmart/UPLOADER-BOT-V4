@@ -83,6 +83,7 @@ If you have any questions or would like to sponsor this project in another way, 
 - Runtime : `Python 3`
 - Build Command : `pip install -r requirements.txt`
 - Start Command : `./start.sh`
+- Service Type : `Web Service` (do not use `python3 bot.py` as the start command; it does not bind Render's required `PORT`)
 - Before deploying, add these **Environment** variables in Render: `BOT_TOKEN`, `API_ID` (numbers only), and `API_HASH`. The bot cannot start without Telegram API credentials.
 - Also set `DATABASE_URL`; set `LOG_CHANNEL` and `OWNER_ID` when using verification logs and owner-only commands.
 - Go to https://uptimerobot.com/ and add a monitor to keep your bot alive

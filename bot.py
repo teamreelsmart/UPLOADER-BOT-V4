@@ -24,7 +24,7 @@ if __name__ == "__main__":
     print("🧠  Do NOT expose your BOT_TOKEN, API_ID, API_HASH, or cookies.txt.")
     print("💡  Always use Heroku Config Vars or a private .env file to store secrets.")
     print("🔒  Never commit sensitive data to your fork — anyone can steal it!")
-    print("📢  Support: @NT_BOTS_SUPPORT")
+    print("📢  Support: @OTheOrviX")
     print("=" * 60 + "\n")
 
 
@@ -42,5 +42,5 @@ if __name__ == "__main__":
         plugins=plugins
     )
 
-    print("🎊 I AM ALIVE 🎊  • Support @NT_BOTS_SUPPORT")
+    print("🎊 I AM ALIVE 🎊  • Support @TheOrviX")
     Client.run()
